@@ -1,0 +1,17 @@
+remote_theme: "mmistakes/minimal-mistakes@4.19.1"
+
+
+title: Mon super site
+description: "description"
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://timothenf.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+github_username:  timothenf
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
